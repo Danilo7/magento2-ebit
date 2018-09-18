@@ -1,0 +1,14 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * @author Danilo Cavalcanti de Moura
+ * Email: danilo-cm@hotmail.com
+ */
+?>
+
+<?php if ($block->isEnableSelo()): ?>
+    <div id="container-ebit">
+        <a id="seloEbit" href="http://www.ebit.com.br/<?= $block->getStoreEbit() ?>" target="_blank" data-noop="redir(this.href);"></a>
+        <script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?<?= $block->getStoreEbit() ?>"></script>
+    </div>
+<?php endif; ?>

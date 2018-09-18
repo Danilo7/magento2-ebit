@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Created by PhpStorm.
+ * @author Danilo Cavalcanti de Moura
+ * Email: danilo-cm@hotmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <ebit>
+            <general>
+                <enable_selo>0</enable_selo>
+                <enable_banner>0</enable_banner>
+                <lightbox>1</lightbox>
+                <store>default</store>
+                <buscape_id>default</buscape_id>
+            </general>
+        </ebit>
+    </default>
+</config>

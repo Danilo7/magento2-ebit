@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Created by PhpStorm.
+ * @author Danilo Cavalcanti de Moura
+ * Email: danilo-cm@hotmail.com
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Fcamara_Ebit::css/ebit.css"/>
+    </head>
+    <body>
+        <referenceContainer name="footer-container">
+            <block class="Fcamara\Ebit\Block\Html\Ebit" after="-" name="selo_ebit" template="Fcamara_Ebit::html/selo_ebit.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="order.success.additional.info">
+            <block class="Fcamara\Ebit\Block\Html\Ebit" after="-" name="banner_ebit" template="Fcamara_Ebit::html/banner_ebit.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

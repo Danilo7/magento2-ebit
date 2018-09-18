@@ -1,8 +1,8 @@
 {
-  "name": "fcamara/register-brazil",
-  "description": "Module to create register of customer brazil",
+  "name": "fcamara/ebit",
+  "description": "Module for Integration with Ebit",
   "type": "magento2-module",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "license": [
     "proprietary"
   ],
@@ -20,7 +20,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Fcamara\\RegisterBrazil\\": ""
+      "Fcamara\\Ebit\\": ""
     }
   },
   "minimum-stability": "dev"
